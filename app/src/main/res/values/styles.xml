@@ -1,0 +1,46 @@
+<resources>
+
+     <string-array name="lunch_array">
+
+        <item>Choose</item>
+        <item>Hamburger</item>
+        <item>A Glass of Coke</item>
+        <item>A Glass of Beer</item>
+        <item>A Glass of Ayran</item>
+        <item>A Glass of Sparkling Water</item>
+        <item>Hamburger</item>
+        <item>One Slice Pizza</item>
+        <item>Chicken Sandwich</item>
+        <item>Meat Sandwich</item>
+        <item>Chicken Wing</item>
+        <item>Schnitzel</item>
+        <item>Fried Fish</item>
+        <item>French Fries</item>
+        <item>One Bowl Soup</item>
+        <item>One Bowl Rice</item>
+        <item>One Bowl Salad</item>
+        <item>A Plate of Spaghetti</item>
+        <item>A Plate of Homemade Food With Meat</item>
+        <item>A Plate of Homemade Food With Chicken </item>
+        <item>A Plate of Homemade Food With Vegetable</item>
+        <item>One Slice Bread</item>
+        <item>A Piece of Dessert</item>
+        <item>A Slice of Cake</item>
+        <item>A Piece of Chocolate</item>
+        <item>One Apple</item>
+        <item>One Banana</item>
+        <item>One Orange</item>
+
+
+
+    </string-array>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

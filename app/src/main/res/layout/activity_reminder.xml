@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_homescreen"
+    tools:context=".ReminderActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtReminder"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Choose What You Want To Remember!"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_teeth"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/homescreen_button"
+                        android:paddingBottom="10dp"
+                        android:text="Brush Your Teeth"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_pill"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Take Your Pills"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_water"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Drink Glass of Water"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_dishes"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Wash the Dishes"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_cloth"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Wash the Clothes"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_rubbish"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Throw Away Rubbish"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_shop"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Go Shopping"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_sport"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Go to Sport"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_pet"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Take Care of Your Pet"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_call"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/homescreen_button"
+                        android:text="Call the x person"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/savebtn"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/homescreen_button"
+                        android:elevation="0dp"
+                        android:text="Save" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

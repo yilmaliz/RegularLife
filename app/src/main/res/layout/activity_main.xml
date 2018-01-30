@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_homescreen"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.example.ali.project.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Hello!"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textIsSelectable="false"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.033" />
+
+            <TextView
+                android:id="@+id/kllncısmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textColorLink="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/alarmbtn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0"
+        android:background="@drawable/homescreen_button"
+        android:drawableLeft="@drawable/ic_alarm"
+        android:drawableRight="@drawable/ic_alarm"
+        android:text="Alarm"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/reqbtn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/homescreen_button"
+        android:drawableLeft="@drawable/ic_toothbrush"
+        android:drawableRight="@drawable/ic_pill"
+        android:text="remınder"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/calculatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/homescreen_button"
+        android:drawableLeft="@drawable/ic_met"
+        android:drawableRight="@drawable/ic_carrot"
+        android:text="Calorıe"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/helpbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/homescreen_button"
+        android:drawableLeft="@drawable/ic_info"
+        android:drawableRight="@drawable/ic_info"
+        android:text="ınfo"
+        android:textSize="18sp" />
+
+</LinearLayout>

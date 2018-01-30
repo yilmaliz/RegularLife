@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_homescreen"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.example.ali.project.CalorieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/homescreen_button"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="Calorie Calculator"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_br"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="41dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/homescreen_button"
+                android:drawableLeft="@drawable/ic_milk"
+                android:drawableRight="@drawable/ic_cheese"
+                android:text="Breakfast"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_lnch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="41dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/homescreen_button"
+                android:drawableLeft="@drawable/ic_burger"
+                android:drawableRight="@drawable/ic_soup"
+                android:text="lunch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_br" />
+
+            <Button
+                android:id="@+id/btn_dn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="41dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/homescreen_button"
+                android:drawableLeft="@drawable/ic_meat"
+                android:drawableRight="@drawable/ic_but"
+                android:text="dınner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.146"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_lnch" />
+
+            <Button
+                android:id="@+id/btn_ref"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/homescreen_button"
+                android:drawableLeft="@drawable/ic_donut"
+                android:drawableRight="@drawable/ic_apple"
+                android:text="Refreshment"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_dn"
+                app:layout_constraintVertical_bias="0.182" />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
